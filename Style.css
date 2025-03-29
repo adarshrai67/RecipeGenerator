@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(253, 192, 78);
+    padding-bottom: 20px;
+    min-height: 100vh;
+    border: 2px solid brown
+}
+
+.headName{
+    color: rgb(34, 34, 97);
+    text-align: center;
+    padding-top: 20px;
+}
+
+#inputName{
+    border: 2px solid rgb(107, 107, 107);
+}
+
+#button{
+    background-color: rgb(86, 86, 254);
+    color: white;
+    border: 2px solid rgb(107, 107, 107);
+}
+
+#searched{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: rgb(254, 6, 6);
+}
+
+#msg{
+    text-align: center;
+    color: rgb(165, 7, 7);
+    display: none;
+    margin-bottom: 20px;
+}
+
+#items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.singleItem{
+    cursor: pointer;
+}
+
+#details{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 30px 10px 30px;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+
+
